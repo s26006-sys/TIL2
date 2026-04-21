@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: themoment
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/themoment_task
+    username: root
+    password: rlaeodms0201@
+  jpa:
+    hibernate:
+      ddl-auto: create-only
+    show-sql: true
